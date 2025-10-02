@@ -44,6 +44,15 @@
   margin-top: 10px;
 }
 
-.circle {
+.nav {
   cursor: pointer;
+  border: none;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: rgb(111, 119, 125);
+}
+
+.active {
+  background-color: rgb(7, 151, 229);
 }
